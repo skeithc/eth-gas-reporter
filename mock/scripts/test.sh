@@ -22,6 +22,6 @@ fi
 sleep 5
 
 # -----------------------  Install Reporter and run tests ------------------------------------------
-install_reporter
+install_reporter || exit $?
 test_truffle_v5_basic
 test_truffle_v5_with_options
