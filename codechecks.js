@@ -36,7 +36,7 @@ module.exports.default = async function gasReporter(options = {}) {
     : output.namespace;
 
   let report = new CodeChecksReport(output.config);
-  report.generate(output.info);
+  await report.generate(output.info);
 
   try {
     await codechecks.saveValue(output.namespace, report.newData);
