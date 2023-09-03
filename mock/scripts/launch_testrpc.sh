@@ -14,6 +14,6 @@ testrpc_running() {
 }
 
 start_testrpc() {
-  npx ganache-cli --gasLimit 8000000 "${accounts[@]}" > /dev/null &
+  npx ganache --gasLimit 8000000 "${accounts[@]}" > /dev/null &
   testrpc_pid=$!
 }
