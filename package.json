@@ -40,7 +40,6 @@
     }
   },
   "dependencies": {
-    "@ethersproject/abi": "^5.7.0",
     "@solidity-parser/parser": "^0.16.1",
     "cli-table3": "^0.6.3",
     "colors": "1.4.0",
