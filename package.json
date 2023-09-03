@@ -35,7 +35,6 @@
     "@solidity-parser/parser": "^0.16.1",
     "cli-table3": "^0.6.3",
     "colors": "1.4.0",
-    "ethereum-cryptography": "^2.1.2",
     "ethers": "^6.7.1",
     "fs-readdir-recursive": "^1.1.0",
     "lodash": "^4.17.21",
