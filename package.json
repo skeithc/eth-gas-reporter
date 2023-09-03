@@ -4,6 +4,7 @@
   "description": "Mocha reporter which shows gas used per unit test.",
   "main": "index.js",
   "scripts": {
+    "prepare": "husky install",
     "geth": "./scripts/geth.sh",
     "test": "./mock/scripts/test.sh",
     "ci": "./scripts/ci.sh"
